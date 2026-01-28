@@ -1,5 +1,4 @@
-"use client";
-
+'use client';
 import Dropzone from "@/components/dropzone";
 import FAQ from "@/components/FAQ";
 import { useState, useEffect } from "react";
