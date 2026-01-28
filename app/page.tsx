@@ -41,10 +41,11 @@ export default function Home() {
         />
         
         <div className="max-w-4xl mx-auto text-center space-y-8 relative z-10">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 dark:bg-blue-950/30 border border-blue-100 dark:border-blue-900/50 text-blue-700 dark:text-blue-300 text-sm font-medium mb-2 animate-fade-in">
-            <Sparkles className="w-4 h-4" />
-            Free, Unlimited File Conversion
-          </div>
+          <div className="mt-8 sm:mt-0 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 dark:bg-blue-950/30 border border-blue-100 dark:border-blue-900/50 text-blue-700 dark:text-blue-300 text-sm font-medium mb-2 animate-fade-in">
+  <Sparkles className="w-4 h-4" />
+  Free, Unlimited File Conversion
+</div>
+
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 dark:text-white leading-tight animate-fade-in-up">
             Transform Your Files

@@ -31,7 +31,7 @@ export default function Navbar() {
       <Link href="/" className="flex items-center gap-2">
         <Image src="/data-transfer.png" alt="Flippr" width={32} height={32} />
         <span className="text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
-          Flippr
+          Flipprr
         </span>
       </Link>
 
