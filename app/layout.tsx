@@ -32,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <ThemeProvider attribute="class" defaultTheme="system" enableSystem themes={["light", "dark"]}>
                     <Navbar />
                     <Toaster />
-                    <div className="min-h-screen lg:pt-36 2xl:pt-44 container max-w-4xl lg:max-w-6xl 2xl:max-w-7xl">
+                    <div className="min-h-screen">
                         {children}
                     </div>
                     
